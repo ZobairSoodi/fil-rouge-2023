@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: "Audiowide";
+    src: url("../fonts/Audiowide-Regular.ttf");
+}
+
+nav {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    background-color: #60B49C;
+    /* padding: 20px 0px ; */
+    font-family: 'Audiowide';
+    /* position: sticky; */
+}
+
+.navImg img {
+    width: 100px;
+}
+
+.navItems li {
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+}
+
+.navItems li a {
+    text-decoration: none;
+    /* color: #3D3232; */
+}
+
+.navButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connectWalletBtn button{
+    background:none;
+    height: auto !important;
+    font-family: "Audiowide";
+    font-size: 16px;
+    font-weight: 500;
+    /* color: white; */
+    /* padding: 0; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E5E7EB;
+    border-radius: 0.25rem/* 4px */;
+    outline: none;
+}
+
+/* .connectWalletBtn button > span{
+    gap: 0 !important;
+} */
+
+.connectWalletBtn button:hover{
+    background:none;
+    border-color: #FFB951;
+    color: #FFB951;
+    transition: all .5s;
+}
+
+.connectWalletBtn button::after {
+    display: none;
+}
+
+.navButtons input {
+    padding: 15px 35px ;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    /* border-radius: 20px; */
+    /* background-color: #FDFF93; */
+    font-size: 17px;
+    font-family: 'Audiowide';
+    /* color: #3D3232; */
+    border-radius: 12px;
+
+}

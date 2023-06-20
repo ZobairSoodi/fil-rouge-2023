@@ -1,0 +1,17 @@
+[
+    {
+        "id": 0,
+        "name": "Hip Hop Dancing",
+        "url": "https://ipfs.thirdwebcdn.com/ipfs/QmTQHUCdmnW2w4XVBxPHerur1sBLzyA9T3vKvGQLwZA3tE/Wave%20Hip%20Hop%20Dance.fbx"
+    },
+    {
+        "id": 1,
+        "name": "Salsa Dancing",
+        "url": "https://ipfs.thirdwebcdn.com/ipfs/QmNPgz9QUNvD4houjf16ofXoAookf8sRsDbbLgngjWBJK5/Samba%20Dancing.fbx"
+    },
+    {
+        "id": 2,
+        "name": "T-pose",
+        "url": "https://ipfs.thirdwebcdn.com/ipfs/QmfXftFxvUi43oU7ismHE"
+    }
+]

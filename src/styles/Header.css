@@ -1,0 +1,11 @@
+/* .header-bg{
+    background-color: #5AC1E1;
+} */
+header{
+    height: calc(100vh - 82px);
+    overflow: hidden;
+}
+.map img{
+    object-fit: cover;
+    object-position: bottom;
+}

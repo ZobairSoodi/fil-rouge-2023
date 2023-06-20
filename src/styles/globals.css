@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(Fonts.css);
+
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #383a3d;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    /* border: solid #000000 2px; */
+    border-radius: 20px;
+  }
+
+:root{
+    --primary: #60B49C;
+    --secondary: #E5E77F;
+    --bg1: #101C23;
+    --bg2: #16252E;
+    --bg-gradient: linear-gradient(105.05deg, #111B24 13.5%, #0E2720 58.09%, #14222F 66.31%, #22303D 86.59%);
+    font-family: "Barlow";
+    letter-spacing: 1.6px;
+    color: white;
+}
+
+.mintNftBTN {
+    background-color: #FFB951 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    font-size: 20px !important;
+    margin-bottom: 40px;
+}
+

@@ -1,0 +1,31 @@
+.mintNftBTN {
+    background-color: #FFB951 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    font-size: 20px !important;
+}
+.spinner-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .spinner {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #f3f3f3;
+    border-top-color: #3498db;
+    animation: spin 1s infinite linear;
+    margin-right: 10px;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

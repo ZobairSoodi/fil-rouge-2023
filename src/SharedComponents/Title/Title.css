@@ -1,0 +1,7 @@
+.underline {
+    border-top: 5px solid var(--secondary);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0;
+    width: 150px;
+}
